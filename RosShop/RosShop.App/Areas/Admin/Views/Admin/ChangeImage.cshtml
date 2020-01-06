@@ -1,0 +1,28 @@
+﻿@model ChangeImageModel
+@{
+	ViewData["Title"] = "Image";
+}
+
+<h2>Image</h2>
+<form enctype="multipart/form-data" asp-controller="Admin" asp-action="ChangeImage" method="post" >
+	<input type="hidden" asp-for="Id" />
+	<div class="form-group ">
+		<label asp-for="Photo" class="col-sm-2 col-form-label"></label>
+		<div class="col-md-4">
+			<div class="custom-file">
+				<input asp-for="Photo" class="form-control custom-file-input" />
+			</div>
+		</div>
+	</div>
+	<button type="submit" class="btn btn-primary">Create</button>
+</form>
+
+<!-- <div class="form-group ">
+		<label asp-for="Photo" class="col-sm-2 col-form-label"></label>
+		<div class="col-md-4">
+			<div class="custom-file">
+				<input asp-for="Photo" class="form-control custom-file-input" />
+				<label class="custom-file-label">Choise file</label>
+			</div>
+		</div>
+	</div>-->

@@ -1,0 +1,53 @@
+﻿@model AllAdminUsersViewModel
+@{
+	ViewData["Title"] = "AllAdmin";
+}
+
+<h2>All Admins</h2>
+
+<a class="btn btn-success" href="/Admin/Admin/All"> All Customer Users</a>
+<br />
+<br />
+<table class="table table-bordered table-condensed">
+	<thead>
+		<tr>
+			<th>
+				Name
+			</th>
+			<th>
+				Email
+			</th>
+			<th>
+				Roles
+			</th>
+			<th>
+				Make Not Admin
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model.AllAdmins)
+		{
+			<tr>
+				<th>
+					@item.Name
+				</th>
+				<th>
+					@item.Email
+				</th>
+				<th>
+					@foreach (var role in item.AllRoles)
+					{
+						<ul>@role</ul>
+					}
+				</th>
+				<th>
+					<form asp-area="Admin" asp-controller="Admin" asp-action="DeleteAdmin" asp-route-id="@item.Id" method="post" class="form-horizontal">
+						<button class="btn btn-success" type="submit">Delete Admin</button>
+					</form>
+					
+				</th>
+			</tr>
+		}
+	</tbody>
+</table>

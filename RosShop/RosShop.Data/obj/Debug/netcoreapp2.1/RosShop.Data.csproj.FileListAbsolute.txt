@@ -1,0 +1,21 @@
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\bin\Debug\netcoreapp2.1\RosShop.Data.deps.json
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\bin\Debug\netcoreapp2.1\RosShop.Data.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\obj\Debug\netcoreapp2.1\RosShop.Data.csprojAssemblyReference.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\obj\Debug\netcoreapp2.1\RosShop.Data.csproj.CoreCompileInputs.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\obj\Debug\netcoreapp2.1\RosShop.Data.AssemblyInfoInputs.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\obj\Debug\netcoreapp2.1\RosShop.Data.AssemblyInfo.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\bin\Debug\netcoreapp2.1\RosShop.Data.runtimeconfig.json
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\bin\Debug\netcoreapp2.1\RosShop.Data.runtimeconfig.dev.json
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\bin\Debug\netcoreapp2.1\RosShop.Data.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\obj\Debug\netcoreapp2.1\RosShop.Data.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\obj\Debug\netcoreapp2.1\RosShop.Data.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\bin\Debug\netcoreapp2.1\RosShop.Data.deps.json
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\bin\Debug\netcoreapp2.1\RosShop.Data.runtimeconfig.json
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\bin\Debug\netcoreapp2.1\RosShop.Data.runtimeconfig.dev.json
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\bin\Debug\netcoreapp2.1\RosShop.Data.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\bin\Debug\netcoreapp2.1\RosShop.Data.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\obj\Debug\netcoreapp2.1\RosShop.Data.AssemblyInfoInputs.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\obj\Debug\netcoreapp2.1\RosShop.Data.AssemblyInfo.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\obj\Debug\netcoreapp2.1\RosShop.Data.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\obj\Debug\netcoreapp2.1\RosShop.Data.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.Data\obj\Debug\netcoreapp2.1\RosShop.Data.csprojAssemblyReference.cache

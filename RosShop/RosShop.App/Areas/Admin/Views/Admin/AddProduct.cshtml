@@ -1,0 +1,115 @@
+﻿@using RosShop.App.Common.Messages
+@model AddProductModel
+@{
+	ViewData["Title"] = "AddProduct";
+}
+
+<h2>AddProduct</h2>
+
+
+
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+	<div class="alert alert-danger alert-dismissible">
+		<button type="button" class="closebtn" data-dismiss="alert" onclick="this.parentElement.style.display='flex';">&times;</button>
+		<strong>Error!</strong> @ViewBag.Error
+	</div>
+}
+
+<br />
+
+<form asp-area="Admin" asp-controller="Admin" asp-action="AddProduct" method="post" class="form-horizontal" enctype="multipart/form-data">
+	<div class="form-group">
+		<label asp-for="Type" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="Type" class="form-control" />
+			<span asp-validation-for="Type" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="BrandName" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="BrandName" class="form-control">
+			<span asp-validation-for="BrandName" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="NameOfModel" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="NameOfModel" class="form-control" />
+			<span asp-validation-for="NameOfModel" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="Description" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="Description" class="form-control" />
+			<span asp-validation-for="Description" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group ">
+		<label asp-for="Photo" class="col-sm-2 control-label"></label>
+		<div class="col-md-4">
+			<div class="custom-file">
+				<input asp-for="Photo" class="form-control custom-file-input" />
+			</div>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="Price" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="Price" class="form-control" />
+			<span asp-validation-for="Price" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="Gender" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="Gender" class="form-control" />
+			<span asp-validation-for="Gender" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="NumberOfSize" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="NumberOfSize" class="form-control" />
+			<span asp-validation-for="NumberOfSize" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="Color" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="Color" class="form-control" />
+			<span asp-validation-for="Color" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="Quantity" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="Quantity" class="form-control" />
+			<span asp-validation-for="Quantity" class="form-text text-danger"></span>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<div class="col-md-offset-2 col-md-10">
+			<button type="submit" class="btn btn-success"> Add Product</button>
+		</div>
+	</div>
+
+</form>
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}
+	
+<!--section Scripts{
+	<script>
+		$(document).ready(function () {
+			$('.custom-file-input').on("change", function () {
+				var fileName = $(this).val().split("\\").pop;
+				$(this).next('.custom-file-lable').html(fileName);
+			});
+		});
+	</script>
+}-->

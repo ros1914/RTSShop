@@ -1,0 +1,40 @@
+﻿@model ShopingCardViewModel
+@{
+	ViewData["Title"] = "ShopingCard";
+}
+
+<h2>ShopingCard.Stana </h2>
+
+<form asp-area="Admin" asp-controller="ShopingCard" asp-action="MakeOrder" method="get" class="form-horizontal">
+	
+	@foreach (var item in Model.CardProduct.Product)
+	{
+	
+	<p>Brand Name: @item.BrandName</p>
+	<p>Model:@item.NameOfModel</p>
+	<p>Size:@item.NumberOfSize</p>
+	<p>Quantity: @item.Quantity</p>
+	<p>Proce:@item.Price lv</p>
+	<a class="btn btn-success" asp-area="Admin" asp-controller="ShopingCard" asp-action="DeleteProductOnShopingCard" asp-route-id="@item.Id">Delete</a>
+	<br />
+	<br />
+	}
+	<input type="hidden" asp-for="CardProduct.Id" />
+	<input type="hidden" asp-for="CardProduct.CardId"/>
+
+	<div class="form-group">
+		<label asp-for="CardProduct.Shippers" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<select asp-for="CardProduct.ShipperId" asp-items="@Model.CardProduct.Shippers" class="form-control"></select>
+			<span asp-validation-for="CardProduct.ShipperId" class="form-text text-danger"></span>
+		</div>
+	</div>
+
+	<h3>Total Price: @Model.CardProduct.Product.Sum(s => s.Price) lv</h3>
+	<div class="form-group">
+		<div class="col-md-offset-2 col-md-10">
+			<button type="submit" class="btn btn-success"> Make Order</button>
+		</div>
+	</div>
+
+</form>

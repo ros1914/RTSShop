@@ -1,0 +1,42 @@
+﻿@model AllShipperViewModel
+@{
+    ViewData["Title"] = "AllShipper";
+}
+
+<h2>All Shippers</h2>
+
+<table class="table table-bordered table-condensed">
+	<thead>
+		<tr>
+			<th>
+				Name
+			</th>
+			<th>
+				Phone
+			</th>
+			<th>
+				
+			</th>
+			
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model.AllShipper)
+		{
+			<tr>
+				<th>
+					@item.NameOfShipper
+				</th>
+				<th>
+					@item.Phone
+				</th>
+				
+				<th>
+					<a  class="btn btn-warning" asp-area="Admin" asp-controller="Admin" asp-action="EditShipper" asp-route-id="@item.Id">Edit </a>
+					<a  class="btn btn-primary" asp-area="Admin" asp-controller="Admin" asp-action="DetailsShipper" asp-route-id="@item.Id">Detailes</a>
+					<a  class="btn btn-danger" asp-area="Admin" asp-controller="Admin" asp-action="DeleteShipper" asp-route-id="@item.Id">Delete  </a>
+				</th>
+			</tr>
+		}
+	</tbody>
+</table>

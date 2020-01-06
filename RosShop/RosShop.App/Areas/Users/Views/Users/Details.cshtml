@@ -1,0 +1,26 @@
+﻿@model DetailsUsersProductViewModel
+
+
+<h2>Details </h2>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-12">
+			<img class="img-circle" />
+
+			<h4>@Model.DetailsProductModel.Type</h4>
+			<h4>@Model.DetailsProductModel.BrandName</h4>
+			<h4>@Model.DetailsProductModel.NameOfModel</h4>
+			<p class="card-text"><strong>Price</strong> - @Model.DetailsProductModel.Price</p>
+			<p class="card-text"><strong>Size</strong> - @Model.DetailsProductModel.NumberOfSize</p>
+			<p class="card-text">@Model.DetailsProductModel.Description</p>
+			<p class="card-text">@Model.DetailsProductModel.Gender</p>
+			<p class="card-text">@Model.DetailsProductModel.Color</p>
+
+			<form asp-area="Admin" asp-controller="ShopingCard" asp-action="ShopingCard" asp-route-id="@Model.DetailsProductModel.Id" method="post" class="form-horizontal">
+				<!--@Html.HiddenFor(i=>i.DetailsProductModel.Id)-->
+				<button class="btn btn-success" type="submit">Add to card</button>
+			</form>
+		</div>
+	</div>
+</div>

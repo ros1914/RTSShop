@@ -1,0 +1,111 @@
+﻿@model AllUserViewModel 
+@{
+    ViewData["Title"] = "All";
+}
+
+<h2>All</h2>
+
+<a class="btn btn-success" href="/Admin/Admin/AllAdmin" > All Admin Users</a>
+<br />
+<br />
+<table class="table table-bordered table-hover" >
+	<thead>
+		<tr>
+			<th>
+				FirstName
+			</th>
+			<th>
+				LastName
+			</th>
+			<th>
+				UserName
+			</th>
+			<th>
+				Email
+			</th>
+			<th>
+				ConfurmEmail
+			</th>
+			<th>
+				PhoneNumber
+			</th>
+			<th>
+				ConfirmPhonNumber
+			</th>
+			<th>
+				DateOfRegistration
+			</th>
+			<th>
+				TwoFactorEnabled
+			</th>
+			<th>
+				Image
+			</th>
+			<th>
+				Town
+			</th>
+			<th>
+				PostCode
+			</th>
+			<th>
+				PostCode
+			</th>
+			<th>
+				Edit/Delete
+			</th>
+			<th> MakeAdmin</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (var item in Model.AllUsers)
+		{
+		<tr>
+			<th>
+				@item.FirstName
+			</th>
+			<th>
+				@item.LastName
+			</th>
+			<th>
+				@item.UserName
+			</th>
+			<th>
+				@item.Email
+			</th>
+			<th>
+				@item.ConfurmEmail
+			</th>
+			<th>
+				@item.PhoneNumber
+			</th>
+			<th>
+				@item.ConfirmPhonNumber
+			</th>
+			<th>
+				@item.DateOfRegistration
+			</th>
+			<th>
+				@item.TwoFactorEnabled
+			</th>
+			<th>
+				@item.Image
+			</th>
+			<th>
+				@item.Town
+			</th>
+			<th>
+				@item.PostCode
+			</th>
+			<th>
+				@item.PostCode
+			</th>
+			<th>
+				<a class="btn btn-success"  asp-area="Admin" asp-controller="Admin" asp-action="MakeAdmin" asp-route-id="@item.Id">MakeAdmin </a>
+			</th>
+		</tr>
+		}
+	</tbody>
+</table>
+
+<h2>Admin Table</h2>
+

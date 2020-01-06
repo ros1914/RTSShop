@@ -1,0 +1,130 @@
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.deps.json
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.runtimeconfig.json
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.runtimeconfig.dev.json
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.csprojAssemblyReference.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.csproj.CoreCompileInputs.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorAssemblyInfo.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorAssemblyInfo.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.AssemblyInfoInputs.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.AssemblyInfo.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.TagHelpers.input.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.TagHelpers.output.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorCoreGenerate.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorTargetAssemblyInfo.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorTargetAssemblyInfo.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.Views.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.Views.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.Views.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.csproj.CopyComplete
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.Data.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.Services.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.Data.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.Services.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\All.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AllAdmin.g.cshtml.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.deps.json
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.runtimeconfig.json
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.runtimeconfig.dev.json
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.Views.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.App.Views.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.Data.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.Services.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.Data.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\RosShop.Services.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.csprojAssemblyReference.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorAssemblyInfo.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorAssemblyInfo.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.AssemblyInfoInputs.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.AssemblyInfo.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.TagHelpers.input.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.TagHelpers.output.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorCoreGenerate.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorTargetAssemblyInfo.cache
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorTargetAssemblyInfo.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.Views.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.csproj.CopyComplete
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.dll
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.pdb
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\appsettings.json
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AddProduct.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AddShipper.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\All.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AllAdmin.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AllProduct.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\AllShipper.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Delete.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\DeleteShipper.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Details.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\DetailsShipper.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Edit.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\EditShipper.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ConfirmEmail.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\ExternalLogin.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminView.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\Index.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_AdminLayout.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Shared\_Layout.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\Details.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\_ViewImports.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\_ViewStart.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Users\Views\Users\UsersAllProduct.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\ShopingCard\Views\Shared\_Layout.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\ShopingCard\Views\ShopingCard\MakeOrder.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\ShopingCard\Views\ShopingCard\Paymant.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\ShopingCard\Views\ShopingCard\ShopingCard.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\ShopingCard\Views\_ViewImports.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\ShopingCard\Views\_ViewStart.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\ChangeImage.cshtml.g.cs

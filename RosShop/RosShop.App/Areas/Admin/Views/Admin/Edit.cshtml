@@ -1,0 +1,84 @@
+﻿@model EditProductViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h2>Edit @Model.Edit.NameOfModel</h2>
+
+<form asp-area="Admin" asp-controller="Admin" asp-action="Edit" method="post" class="form-horizontal">
+	<div class="form-group">
+		<label asp-for="@Model.Edit.Type" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="@Model.Edit.Type" class="form-control" />
+			<span asp-validation-for="@Model.Edit.Type" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="@Model.Edit.BrandName" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="@Model.Edit.BrandName" class="form-control">
+			<span asp-validation-for="@Model.Edit.BrandName" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="@Model.Edit.NameOfModel" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="@Model.Edit.NameOfModel" class="form-control" />
+			<span asp-validation-for="@Model.Edit.NameOfModel" class="form-text text-danger"></span>
+		</div>
+	</div><div class="form-group">
+		<label asp-for="@Model.Edit.Description" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="@Model.Edit.Description" class="form-control" />
+			<span asp-validation-for="@Model.Edit.Description" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="@Model.Edit.ImagePath" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="@Model.Edit.ImagePath" class="form-control" />
+			<span asp-validation-for="@Model.Edit.ImagePath" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="@Model.Edit.Price" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="@Model.Edit.Price" class="form-control" />
+			<span asp-validation-for="@Model.Edit.Price" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="@Model.Edit.Gender" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="@Model.Edit.Gender" class="form-control" />
+			<span asp-validation-for="@Model.Edit.Gender" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="@Model.Edit.NumberOfSize" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="@Model.Edit.NumberOfSize" class="form-control" />
+			<span asp-validation-for="@Model.Edit.NumberOfSize" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="@Model.Edit.Color" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="@Model.Edit.Color" class="form-control" />
+			<span asp-validation-for="@Model.Edit.Color" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="@Model.Edit.Quantity" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="@Model.Edit.Quantity" class="form-control" />
+			<span asp-validation-for="@Model.Edit.Quantity" class="form-text text-danger"></span>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<div class="col-md-offset-2 col-md-10">
+			<button type="submit" class="btn btn-success"> Edit Product</button>
+		</div>
+	</div>
+</form>

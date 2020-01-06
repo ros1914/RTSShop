@@ -1,0 +1,38 @@
+﻿@model AddPaymantModel
+@{
+    ViewData["Title"] = "Payment";
+}
+
+<h2>Payment</h2>
+
+<form asp-area="Admin" asp-controller="ShopingCard" asp-action="Paymant" method="post" class="form-horizontal">
+	<div class="form-group">
+		<label asp-for="Name" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="Name" class="form-control" />
+			<span asp-validation-for="Name" class="form-text text-danger"></span>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<label asp-for="BanckAccount" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="BanckAccount" class="form-control" />
+			<span asp-validation-for="BanckAccount" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="Cvv" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="Cvv" class="form-control" />
+			<span asp-validation-for="Cvv" class="form-text text-danger"></span>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<div class="col-md-offset-2 col-md-10">
+			<button type="submit" class="btn btn-success"> Add Bank Account</button>
+		</div>
+	</div>
+</form>
+

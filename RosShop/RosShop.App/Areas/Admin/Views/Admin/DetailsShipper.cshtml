@@ -1,0 +1,17 @@
+﻿@model DetailsShipperViewModel
+@{
+	ViewData["Title"] = "DetailsShipper";
+}
+
+<h2>Detail Shipper</h2>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-12">
+			<h4>@Model.DetailsShipper.NameOfShipper</h4>
+			<h4>@Model.DetailsShipper.Phone</h4>
+			<br />
+			<a class="btn btn-success" asp-area="Admin" asp-controller="Admin" asp-action="AllShipper">All Shippers</a>
+		</div>
+	</div>
+</div>

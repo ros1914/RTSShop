@@ -1,0 +1,32 @@
+﻿@model AddShiperModel
+@{
+	ViewData["Title"] = "AddShipper";
+}
+
+<h2>AddShipper </h2>
+
+<a class="btn btn-success" asp-area="Admin" asp-controller="Admin" asp-action="AllShipper" >All Shippers </a>
+<br />
+<br />
+
+<form asp-area="Admin" asp-controller="Admin" asp-action="AddShipper" method="post" class="form-horizontal">
+	<div class="form-group">
+		<label asp-for="NameOfShipper" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="NameOfShipper" class="form-control" />
+			<span asp-validation-for="NameOfShipper" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="Phone" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="Phone" class="form-control" />
+			<span asp-validation-for="Phone" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-md-offset-2 col-md-10">
+			<button type="submit" class="btn btn-success"> Add Shipper</button>
+		</div>
+	</div>
+</form>

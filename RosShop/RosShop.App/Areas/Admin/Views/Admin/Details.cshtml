@@ -1,0 +1,27 @@
+﻿@model DetailsProductViewModel
+@{
+    ViewData["Title"] = "Details";
+	var photoPath = "~/Images/" + (Model.DetailsProductModel.ImagePath ?? "noimage.jpg");
+}
+
+<h2>Details </h2>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-12">
+			<img class="card-image-top" src="@photoPath" asp-append-version="true"  style="width:250px;height:150px;"/>
+
+			<h4>@Model.DetailsProductModel.Type</h4>
+			<h4>@Model.DetailsProductModel.BrandName</h4>
+			<h4>@Model.DetailsProductModel.NameOfModel</h4>
+			<p class="card-text"><strong>Price</strong> - @Model.DetailsProductModel.Price</p>
+			<p class="card-text"><strong>Size</strong> - @Model.DetailsProductModel.NumberOfSize</p>
+			<p class="card-text">@Model.DetailsProductModel.Description</p>
+			<p class="card-text">@Model.DetailsProductModel.Gender</p>
+			<p class="card-text">@Model.DetailsProductModel.Color</p>
+			<a class="btn btn-success" asp-area="Admin" asp-controller="Admin" asp-action="Edit" asp-route-id="@Model.DetailsProductModel.Id">Edit </a>
+			<a class="btn btn-warning" asp-area="Admin" asp-controller="Admin" asp-action="Delete" asp-route-id="@Model.DetailsProductModel.Id">Delete</a>
+			<a class="btn btn-primary" asp-area="Admin" asp-controller="Admin" asp-action="ChangeImage" asp-route-id="@Model.DetailsProductModel.Id">Change Image</a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,54 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "RosShop.Services/1.0.0": {
+        "dependencies": {
+          "RosShop.Data": "1.0.0"
+        },
+        "runtime": {
+          "RosShop.Services.dll": {}
+        }
+      },
+      "Microsoft.Bot.Connector.DirectLine/3.0.2": {
+        "runtime": {
+          "lib/netstandard1.3/Microsoft.Bot.Connector.DirectLine.dll": {
+            "assemblyVersion": "3.0.2.0",
+            "fileVersion": "3.0.2.0"
+          }
+        }
+      },
+      "RosShop.Data/1.0.0": {
+        "dependencies": {
+          "Microsoft.Bot.Connector.DirectLine": "3.0.2"
+        },
+        "runtime": {
+          "RosShop.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RosShop.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Bot.Connector.DirectLine/3.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mlys9ygDG7iMIe5ztvB6tpEU0LR1+7uTLR7Ab/l4iFly9ca9eMIH0HhHt9d2cvrDfv5xNoU9BSvj3Hzb7bfMiA==",
+      "path": "microsoft.bot.connector.directline/3.0.2",
+      "hashPath": "microsoft.bot.connector.directline.3.0.2.nupkg.sha512"
+    },
+    "RosShop.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
