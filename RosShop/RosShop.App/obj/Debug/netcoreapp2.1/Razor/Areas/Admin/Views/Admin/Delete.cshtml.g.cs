@@ -90,7 +90,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
             WriteLiteral("\r\n<h2>Are you sure you want to delete this product ?</h2>\r\n\r\n");
             EndContext();
             BeginContext(116, 128, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "402fae650424444b8ee3c5a0d72ad1ac", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "271f11165767450f9892fc6c8f4ef219", async() => {
                 BeginContext(226, 14, true);
                 WriteLiteral("Confirm Delete");
                 EndContext();
@@ -130,7 +130,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(246, 99, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33b7b80bb810447cb4e163ae7f55d8c7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "76f70636670e43f7865e06f629bd8da9", async() => {
                 BeginContext(337, 4, true);
                 WriteLiteral("Back");
                 EndContext();

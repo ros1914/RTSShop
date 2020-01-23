@@ -396,5 +396,17 @@
 			this.db.SaveChanges();
 			return true;
 		}
+
+		public IEnumerable<AllListingUsers> SearchUsers(string searchUser)
+		{
+			var resultUser = AllUsers().Where(n => n.UserName.Contains(searchUser) || n.FirstName.Contains(searchUser));
+			return (resultUser);
+		}
+
+		public IEnumerable<AllListingProducts> SearchProduct(string searchProduct)
+		{
+			var result = AllProducts().Where(n=>n.NameOfModel.Contains(searchProduct) || n.BrandName.Contains(searchProduct));
+			return result;
+		}
 	}
 }

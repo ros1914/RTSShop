@@ -11,13 +11,13 @@ namespace RosShop.Services.Implementation
 	{
 
 		private readonly RosShopDbContext db;
-		
+
 		public UserServices(RosShopDbContext db)
 		{
 			this.db = db;
-			
+
 		}
-		
+
 		public IEnumerable<UsersAllListingProduct> AllProducts()
 		{
 			var result = this.db.Products.Select(p => new UsersAllListingProduct()
@@ -34,10 +34,10 @@ namespace RosShop.Services.Implementation
 				Gender = p.Gender,
 				Quantity = p.Quantity
 			});
-		
+
 			return result;
 		}
-		
+
 		public DetailsProductModel DetailsProduct(int id)
 		{
 			var product = this.db.Products.Where(p => p.Id == id).Select(p => new DetailsProductModel()
@@ -54,9 +54,15 @@ namespace RosShop.Services.Implementation
 				Gender = p.Gender,
 				Color = p.Color
 			}).FirstOrDefault();
-		
+
 			return product;
 		}
-		
+
+		public IEnumerable<UsersAllListingProduct> SearchProducts(string searchString)
+		{
+			var result = AllProducts().Where(s => s.BrandName.ToLower().Contains(searchString) || s.NameOfModel.ToLower().Contains(searchString) || s.Type.ToLower().Contains(searchString));
+
+			return result;
+		}
 	}
 }

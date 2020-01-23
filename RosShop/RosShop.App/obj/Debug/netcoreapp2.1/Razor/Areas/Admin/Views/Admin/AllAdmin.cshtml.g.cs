@@ -170,7 +170,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
             WriteLiteral("\t\t\t\t</th>\r\n\t\t\t\t<th>\r\n\t\t\t\t\t");
             EndContext();
             BeginContext(669, 222, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f585f3f0919d49cfa75a969596d6ee6a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dcee24a918fb469b955c185c16d1286d", async() => {
                 BeginContext(802, 82, true);
                 WriteLiteral("\r\n\t\t\t\t\t\t<button class=\"btn btn-success\" type=\"submit\">Delete Admin</button>\r\n\t\t\t\t\t");
                 EndContext();

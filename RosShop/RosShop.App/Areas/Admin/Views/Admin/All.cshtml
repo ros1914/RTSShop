@@ -4,7 +4,15 @@
 }
 
 <h2>All</h2>
+<div class="search-container">
+	<form asp-action="SearchUser" method="get" class="form-horizontal">
+		<input type="text" name="searchUser">
+		<!--<button type="submit"><i class="fa fa-search"></i></button>-->
+		<button class="btn btn-primary" type="submit">Search</button>
+	</form>
+</div>
 
+<br />
 <a class="btn btn-success" href="/Admin/Admin/AllAdmin" > All Admin Users</a>
 <br />
 <br />

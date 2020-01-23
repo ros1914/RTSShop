@@ -10,5 +10,6 @@
 
 		DetailsProductModel DetailsProduct(int id);
 
+		IEnumerable<UsersAllListingProduct> SearchProducts(string searchString);
 	}
 }

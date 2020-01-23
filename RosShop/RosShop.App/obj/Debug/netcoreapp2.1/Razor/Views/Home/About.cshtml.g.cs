@@ -101,7 +101,7 @@ Write(ViewData["Message"]);
             WriteLiteral("</h3>\r\n\r\n<p>Use this area to provide additional information.</p>\r\n");
             EndContext();
             BeginContext(160, 460, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b777e073854d4e5899a7e9b85ff0b029", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4273fd81725f466fbfbe7c50258dfa11", async() => {
                 BeginContext(258, 355, true);
                 WriteLiteral(@"
     <div class=""form-group"">
@@ -142,7 +142,7 @@ Write(ViewData["Message"]);
             WriteLiteral("\r\n<br />\r\n<br/>\r\n");
             EndContext();
             BeginContext(637, 151, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78dbdb79b2d346f2bf9b8d62397a3bca", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e511841169e44a0a9d211fdc216dcbd1", async() => {
                 BeginContext(702, 79, true);
                 WriteLiteral("\r\n    <input type=\"file\" name=\"pic\" />\r\n    <input type=\"submit\" value=\"Go\"/>\r\n");
                 EndContext();
@@ -168,7 +168,7 @@ Write(ViewData["Message"]);
             WriteLiteral("\r\n<br />\r\n");
             EndContext();
             BeginContext(798, 124, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d320b3c86b343d0a9e79480cbc724ae", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "958bb909b4c24eaaa479898a74a7097d", async() => {
                 BeginContext(833, 82, true);
                 WriteLiteral("\r\n    <input type=\"file\" name=\"pic\" accept=\"image/*\">\r\n    <input type=\"submit\">\r\n");
                 EndContext();

@@ -10,11 +10,7 @@ namespace RosShop.App.Controllers
 {
 	public class HomeController : Controller
 	{
-		private readonly IHostingEnvironment he;
-		public HomeController(IHostingEnvironment e)
-		{
-			this.he = e;
-		}
+		
 		public IActionResult Index()
 		{
 			if (User.IsInRole("Administrator"))
@@ -33,15 +29,6 @@ namespace RosShop.App.Controllers
 			return View();
 		}
 
-		[HttpPost]
-		public IActionResult About(List<IFormFile> formFile)
-		{
-			var result = formFile;
-
-			//var fileName = Path.Combine(he.WebRootPath, Path.GetFileName(formFile.FileName));
-			//formFile.CopyTo(new FileStream(fileName,FileMode.Create));
-			return View();
-		}
 
 		public IActionResult Contact()
 		{

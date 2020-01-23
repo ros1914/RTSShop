@@ -39,6 +39,7 @@
 					<li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
 					<li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
 					<li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+
 					@if (User.IsInRole("Administrator"))
 					{
 						<li><a asp-area="Admin" asp-controller="Admin" asp-action="AllProduct">Go to Admin</a></li>
@@ -55,15 +56,25 @@
 	<partial name="_CookieConsentPartial" />
 
 	<div class="container body-content">
+		<br />
+		<br />
+		<br />
 		@if (TempData.ContainsKey("_Message"))
 		{
-			//var message = TempData["_Message"];
+			<div class="alert alert-success alert-dismissible">
+				<button type="button" class="closebtn" data-dismiss="alert" onclick="this.parentElement.style.display='flex';">&times;</button>
+				<strong>Success!</strong> @TempData["_Message"]
+			</div>
 
-			<!--<div class=a"lert alert-{this.Type.ToString().ToLower()}">
-				<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-				<strong>//message.Type</strong> message.TextMessege .
-			</div>-->
 		}
+		@if (TempData.ContainsKey("Error"))
+		{
+			<div class="alert alert-danger alert-dismissible">
+				<button type="button" class="closebtn" data-dismiss="alert" onclick="this.parentElement.style.display='flex';">&times;</button>
+				<strong>Danger!</strong> @TempData["Error"]
+			</div>
+		}
+
 
 		@RenderBody()
 		<hr />

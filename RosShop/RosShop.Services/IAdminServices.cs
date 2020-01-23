@@ -41,5 +41,9 @@
 		bool SaveEditShipper(int id , EditShipperModel editShipper);
 
 		bool DeleteShipper(int id);
+
+		IEnumerable<AllListingUsers> SearchUsers( string searchUser);
+
+		IEnumerable<AllListingProducts> SearchProduct(string searchProduct); 
 	}
 }

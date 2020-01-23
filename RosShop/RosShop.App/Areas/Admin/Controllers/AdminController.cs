@@ -62,7 +62,7 @@
 		public IActionResult All()
 		{
 			var allListingsUser = adminServices.AllUsers();
-			var allAdmin = this.adminServices.AllAdminUsers();
+			//var allAdmin = this.adminServices.AllAdminUsers();
 
 			//var user = this.userManager.GetUserAsync(this.User);
 
@@ -76,10 +76,10 @@
 				AllUsers = allListingsUser
 			};
 
-			var result2 = new AllAdminUsersViewModel()
-			{
-				AllAdmins = allAdmin
-			};
+			//var result2 = new AllAdminUsersViewModel()
+			//{
+			//	AllAdmins = allAdmin
+			//};
 
 			return View(result);
 		}
@@ -390,6 +390,51 @@
 
 			this.TempData["_Message"] = "The shipper is delete successful !!!";
 			return RedirectToAction(nameof(AllShipper));
+		}
+
+
+		[HttpGet]
+		public IActionResult SearchUser(string searchUser)
+		{
+			if (!String.IsNullOrEmpty(searchUser))
+			{
+				var result = new AllUserViewModel()
+				{
+					AllUsers = this.adminServices.SearchUsers(searchUser)
+				};
+				if (result==null)
+				{
+					this.TempData["Error"] = "The user is not found";
+					
+					return RedirectToAction(nameof(All));
+				}
+				return View("All", result);
+			}
+
+			this.TempData["Error"] = "Search string is null or empty";
+			return RedirectToAction(nameof(All));
+		}
+
+		[HttpGet]
+		public IActionResult SearchProduct(string searchProduct)
+		{
+			if (!String.IsNullOrEmpty(searchProduct))
+			{
+				var result = new AllProductViewModel()
+				{
+					All = this.adminServices.SearchProduct(searchProduct)
+				};
+
+				if (result == null)
+				{
+					this.TempData["Error"] = "Product whith name is not found !!!";
+					return RedirectToAction(nameof(AllProduct));
+				}
+				return View("AllProduct" , result);
+			}
+
+			this.TempData["Error"] = "Search string is null or empty !!!";
+			return RedirectToAction(nameof(AllProduct));
 		}
 	}
 }
