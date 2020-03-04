@@ -1,0 +1,6 @@
+﻿@model int
+
+<h2>Are you sure you want to delete this product ?</h2>
+
+<a class="btn btn-success" asp-area="ShopingCard" asp-controller="ShopingCard" asp-action="DestroyProductOnShopingCard" asp-route-id="@Model">Confirm Delete</a>
+<a class="btn btn-default" asp-area="ShopingCard" asp-controller="ShopingCard" asp-action="ShopingCard">Back</a>

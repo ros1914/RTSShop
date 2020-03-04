@@ -64,7 +64,6 @@ D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\Ro
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.csprojAssemblyReference.cache
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorAssemblyInfo.cache
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.RazorAssemblyInfo.cs
-D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.AssemblyInfoInputs.cache
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.AssemblyInfo.cs
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\RosShop.App.TagHelpers.input.cache
@@ -110,7 +109,6 @@ D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\Ro
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminView.cshtml.g.cs
@@ -128,3 +126,7 @@ D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\Ro
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\ShopingCard\Views\_ViewImports.cshtml.g.cs
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\ShopingCard\Views\_ViewStart.cshtml.g.cs
 D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Admin\ChangeImage.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\ShopingCard\Views\ShopingCard\StripePayment.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\Areas\ShopingCard\Views\ShopingCard\DeleteProductOnShopingCard.cshtml.g.cs
+D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\obj\Debug\netcoreapp2.1\Razor\_ViewImports.cshtml.g.cs

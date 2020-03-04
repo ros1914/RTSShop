@@ -28,13 +28,13 @@ using RosShop.Data.Models;
 
 #line default
 #line hidden
-#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.App.Areas.Admin.Models;
+#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.Services.Models;
 
 #line default
 #line hidden
-#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.Services.Models;
+#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.App.Areas.Admin.Models;
 
 #line default
 #line hidden
@@ -49,6 +49,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b56900d15182f01e20e03f74d066ac4c78e6ceb6", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cba7ba155524846b62b5c7727c6048b9f44bac74", @"/_ViewImports.cshtml")]
     public class Areas_Admin_Views__ViewImports : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -13,27 +13,27 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 1 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Views\_ViewImports.cshtml"
+#line 1 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\_ViewImports.cshtml"
 using RosShop.App;
 
 #line default
 #line hidden
-#line 2 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Views\_ViewImports.cshtml"
+#line 2 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\_ViewImports.cshtml"
 using RosShop.App.Models;
 
 #line default
 #line hidden
-#line 3 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Views\_ViewImports.cshtml"
+#line 3 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\_ViewImports.cshtml"
 using RosShop.Data.Models;
 
 #line default
 #line hidden
-#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Views\_ViewImports.cshtml"
+#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\_ViewImports.cshtml"
 using RosShop.Services.Models;
 
 #line default
 #line hidden
-#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Views\_ViewImports.cshtml"
+#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\_ViewImports.cshtml"
 using RosShop.App.Areas.Admin.Models;
 
 #line default
@@ -44,7 +44,7 @@ using Microsoft.AspNetCore.Identity;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"41c4d944ce94ed6f12b5455ec7d409affc043c6f", @"/Views/Shared/_LoginPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cba7ba155524846b62b5c7727c6048b9f44bac74", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cba7ba155524846b62b5c7727c6048b9f44bac74", @"/_ViewImports.cshtml")]
     public class Views_Shared__LoginPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-area", "Admin", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -99,12 +99,12 @@ using Microsoft.AspNetCore.Identity;
             WriteLiteral("\t");
             EndContext();
             BeginContext(168, 734, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "71a70f7508544ab3a36303f4bf233d37", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "abf919a728a745e98be76da01a923b06", async() => {
                 BeginContext(342, 60, true);
                 WriteLiteral("\r\n\t\t<ul class=\"nav navbar-nav navbar-right \">\r\n\t\t\t<li>\r\n\t\t\t\t");
                 EndContext();
                 BeginContext(402, 221, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4287bb4b468a4f9e8f8ae8c5bcd11e11", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d4bc6b2bb4864aadb362621ba0bc68e8", async() => {
                     BeginContext(476, 143, true);
                     WriteLiteral("\r\n\t\t\t\t\t<a><i class=\"fa\" style=\"font-size:18px\">&#xf07a;</i></a>\r\n\t\t\t\t\t<span class=\'badge badge-warning\' id=\'lblCartCount\'><p>0</p></span>\r\n\t\t\t\t");
                     EndContext();
@@ -130,7 +130,7 @@ using Microsoft.AspNetCore.Identity;
                 WriteLiteral("\r\n\t\t\t</li>\r\n\t\t\t<li>\r\n\t\t\t\t\r\n\t\t\t\t");
                 EndContext();
                 BeginContext(654, 113, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "93d6313f2cb64523a14ad44858923515", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f70a5c2ce7be460c9dd766ac606e50c4", async() => {
                     BeginContext(725, 6, true);
                     WriteLiteral("Hello ");
                     EndContext();
@@ -213,7 +213,7 @@ else
             WriteLiteral("\t<ul class=\"nav navbar-nav navbar-right\">\r\n\t\t<li>");
             EndContext();
             BeginContext(965, 197, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb3fffc6957346f69711f59f11745b7a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8877537e22cd48b1bf45d80122da36c8", async() => {
                 BeginContext(1039, 119, true);
                 WriteLiteral("<a><i class=\"fa\" style=\"font-size:18px\">&#xf07a;</i></a>   <span class=\'badge badge-warning\' id=\'lblCartCount\'>0</span>");
                 EndContext();
@@ -239,7 +239,7 @@ else
             WriteLiteral("</li>\r\n\t\t<li>");
             EndContext();
             BeginContext(1175, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "815c4abc9f2947e2bf58a12599796679", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34df122be26c40c7a9f279c52aa213a9", async() => {
                 BeginContext(1227, 8, true);
                 WriteLiteral("Register");
                 EndContext();
@@ -263,7 +263,7 @@ else
             WriteLiteral("</li>\r\n\t\t<li>");
             EndContext();
             BeginContext(1252, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "13ce019d6a1348b3a361ad00811ea40e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "25d5df3eb5ea45889ebd7285665b25e2", async() => {
                 BeginContext(1301, 5, true);
                 WriteLiteral("Login");
                 EndContext();

@@ -1,12 +1,20 @@
 ﻿using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Net;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Extensions.Configuration;
 using RosShop.Data;
 using RosShop.Data.Models;
 using RosShop.Services.Models;
 using RosShop.Services.Models.Shipper;
 using RosShop.Services.Models.ShopingCard;
+using RosShop.Services.Models.ShopingCard.PayPal;
+using RosShop.Services.Models.ShopingCard.Stripe;
+using Stripe;
+using Product = RosShop.Data.Models.Product;
 
 namespace RosShop.Services.Implementation
 {
@@ -34,6 +42,11 @@ namespace RosShop.Services.Implementation
 				{
 					shopingCard.Id = CreateShopingCard(userId);
 
+				}
+				var duplicateProduct = this.db.ProductShopingCard.Where(p => p.ProductId == productId).FirstOrDefault();
+				if (duplicateProduct != null)
+				{
+					return false;
 				}
 
 				var result = new ProductShopingCard()
@@ -79,7 +92,7 @@ namespace RosShop.Services.Implementation
 
 				Quontity = 0,
 				Payment = new List<PaymentCard>(),
-				Shippers = new List<Shipper>(),
+				Shippers = this.db.Shippers.FirstOrDefault(),
 				UserId = id
 			};
 
@@ -107,7 +120,6 @@ namespace RosShop.Services.Implementation
 			{
 				Id = id,
 				Product = AllProductOnUserShopingCard(id),
-				Quantity = 1,
 				Cards = new List<PaymentCard>(),
 				Shippers = GetAllShipper()
 			};
@@ -167,10 +179,10 @@ namespace RosShop.Services.Implementation
 				BanckAccount = model.BanckAccount,
 				Cvv = model.Cvv,
 				ShopingCardId = 1
-				
+
 			};
 
-			if (result==null)
+			if (result == null)
 			{
 				return false;
 			}
@@ -178,6 +190,82 @@ namespace RosShop.Services.Implementation
 			this.db.Add(result);
 			this.db.SaveChanges();
 			return true;
+		}
+
+		public PayPalConfig getPayPalConfig()
+		{
+			var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsetting.json");
+
+			var configurator = builder.Build();
+
+			return new PayPalConfig()
+			{
+				AuthToken = configurator["PayPal:AuthToken"],
+				PostUrl = configurator["PayPal:PostUrl"],
+				Business = configurator["PayPal:Business"],
+				ReturnUrl = configurator["PayPal:ReturnUrl"]
+			};
+		}
+
+		public IEnumerable<SelectListItem> AddAdresAndShipper()
+		{
+			return GetAllShipper();
+		}
+
+		public bool MakeOrder(string userId, OrderModel model)
+		{
+			var shopingCard = this.db.ShopingCards.Where(u => u.UserId == userId).FirstOrDefault();
+			var shipperId = this.db.Shippers.Where(s => s.Id == model.ShipperId).FirstOrDefault();
+			if (shopingCard == null|| shipperId==null)
+			{
+				return false;
+			}
+			shopingCard.OrderAdress = model.Town + ", " + model.Adress + ", " + model.PostCode;
+			shopingCard.Shippers = shipperId;
+
+			this.db.SaveChanges();
+			return true;
+		}
+
+		public bool UserPay(StripeModel stripeModel, string userId)
+		{
+
+			var shopingCardOfUser = this.db.ShopingCards.Where(c => c.UserId == userId).FirstOrDefault();
+
+			var sumOfPay = this.db.ProductShopingCard.Where(c=>c.ShopingCardId==shopingCardOfUser.Id);
+			var emailOnUser = this.db.Users.Where(c => c.Id == userId).Select(c => c.Email).FirstOrDefault();
+			;
+			var customers = new CustomerService();
+			var charges = new ChargeService();
+
+			var customer = customers.Create(new CustomerCreateOptions
+			{
+				Email = emailOnUser,
+				Source = stripeModel.StripeToken
+			});
+
+
+			var charge = charges.Create(new ChargeCreateOptions
+			{
+				Amount = 500,
+				Description = "Test PaymentBG",
+				Currency = "BGN",
+				Customer = customer.Id,
+				ReceiptEmail = emailOnUser,
+				Metadata = new Dictionary<string, string>()
+				{
+					{ "OrderID","111"},
+					{ "PostCode", "LEE111"}
+				}
+
+			});
+
+			if (charge.Status == "succeeded")
+			{
+				string BalanceTransactionId = charge.BalanceTransactionId;
+				return true;
+			}
+			return false;
 		}
 	}
 }

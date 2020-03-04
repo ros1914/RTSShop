@@ -54,7 +54,7 @@
 			}
 
 			this.TempData["_Message"] = "Image is changed sucssesful";
-			return RedirectToAction(nameof(Details) ,new { id=file.Id});
+			return RedirectToAction(nameof(Details), new { id = file.Id });
 
 		}
 
@@ -138,7 +138,6 @@
 		[HttpGet]
 		public IActionResult AddProduct()
 		{
-			//this.ViewBag.Error = "Greshka";
 			return View();
 		}
 
@@ -402,10 +401,10 @@
 				{
 					AllUsers = this.adminServices.SearchUsers(searchUser)
 				};
-				if (result==null)
+				if (result == null)
 				{
 					this.TempData["Error"] = "The user is not found";
-					
+
 					return RedirectToAction(nameof(All));
 				}
 				return View("All", result);
@@ -430,7 +429,7 @@
 					this.TempData["Error"] = "Product whith name is not found !!!";
 					return RedirectToAction(nameof(AllProduct));
 				}
-				return View("AllProduct" , result);
+				return View("AllProduct", result);
 			}
 
 			this.TempData["Error"] = "Search string is null or empty !!!";

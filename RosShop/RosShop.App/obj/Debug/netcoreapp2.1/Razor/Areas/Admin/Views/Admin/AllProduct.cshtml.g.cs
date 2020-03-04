@@ -28,13 +28,13 @@ using RosShop.Data.Models;
 
 #line default
 #line hidden
-#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.App.Areas.Admin.Models;
+#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.Services.Models;
 
 #line default
 #line hidden
-#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.Services.Models;
+#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.App.Areas.Admin.Models;
 
 #line default
 #line hidden
@@ -49,6 +49,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"c4c3dd021bc757f13cffd7923a1c95100fbcbd01", @"/Areas/Admin/Views/Admin/AllProduct.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cba7ba155524846b62b5c7727c6048b9f44bac74", @"/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b56900d15182f01e20e03f74d066ac4c78e6ceb6", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Admin_AllProduct : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<AllProductViewModel>
     {
@@ -130,7 +131,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
             WriteLiteral("\r\n<div class=\"search-container\">\r\n\t");
             EndContext();
             BeginContext(421, 259, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7a324e23bd37425e8f64717f36c3a1bb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "36384d04c17f4e01bcd02f93417780d0", async() => {
                 BeginContext(491, 182, true);
                 WriteLiteral("\r\n\t\t<input type=\"text\" name=\"searchProduct\">\r\n\t\t<!--<button type=\"submit\"><i class=\"fa fa-search\"></i></button>-->\r\n\t\t<button class=\"btn btn-primary\" type=\"submit\">Search</button>\r\n\t");
                 EndContext();
@@ -168,7 +169,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
             WriteLiteral("\t\t\t<div class=\"col-sm-4\">\r\n\t\t\t\t");
             EndContext();
             BeginContext(882, 108, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0d1a6f72e56b482686822d86cc776a0d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "3c41fdfa3b64473780d1fc534b940aaa", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_ImageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper>();
@@ -222,7 +223,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ImageTagHelper.AppendVersion = true;
             WriteLiteral("</h4>\r\n\t\t\t\t");
             EndContext();
             BeginContext(1058, 109, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "451cea48f9d04709938c25982ae032f2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c22a7efeead405a9aa6a025c8745f4b", async() => {
                 BeginContext(1147, 16, false);
 #line 38 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\Admin\AllProduct.cshtml"
                                                                                                    Write(item.NameOfModel);
@@ -323,7 +324,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ImageTagHelper.AppendVersion = true;
             WriteLiteral("\r\n\t</div>\r\n</div>\r\n<br />\r\n<div class=\"container\">\r\n\t<div class=\"row\">\r\n\t\t<div class=\"col-12\">\r\n\t\t\t<div class=\"text-center\"><h1 class=\"display-3\">SoftUni Store</h1></div>\r\n\r\n\t\t\t");
             EndContext();
             BeginContext(1635, 205, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1c356df15fe44c529c62636a887182f0", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e983f63b3e9b463199351d46c415c929", async() => {
                 BeginContext(1661, 172, true);
                 WriteLiteral("\r\n\t\t\t\tFilter:\r\n\t\t\t\t<input type=\"submit\" name=\"filter\" class=\"btn btn-link\" value=\"All\" />\r\n\t\t\t\t<input type=\"submit\" name=\"filter\" class=\"btn btn-link\" value=\"Owned\" />\r\n\t\t\t");
                 EndContext();
@@ -346,7 +347,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ImageTagHelper.AppendVersion = true;
             WriteLiteral("\r\n\r\n\t\t\t<div class=\"card-group\">\r\n\t\t\t\t<div class=\"card col-4 thumbnail\">\r\n\r\n\t\t\t\t\t");
             EndContext();
             BeginContext(1920, 148, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "64fff7e51a7e44ca944ac91ac71e01c7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9ea3c45f3cf041f6b124f05a73f56869", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

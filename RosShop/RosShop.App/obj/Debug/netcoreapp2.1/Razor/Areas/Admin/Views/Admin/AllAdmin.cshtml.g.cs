@@ -28,13 +28,13 @@ using RosShop.Data.Models;
 
 #line default
 #line hidden
-#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.App.Areas.Admin.Models;
+#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.Services.Models;
 
 #line default
 #line hidden
-#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.Services.Models;
+#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.App.Areas.Admin.Models;
 
 #line default
 #line hidden
@@ -49,6 +49,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"be992282e619e50c197eb2c6554ab9a713168212", @"/Areas/Admin/Views/Admin/AllAdmin.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cba7ba155524846b62b5c7727c6048b9f44bac74", @"/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b56900d15182f01e20e03f74d066ac4c78e6ceb6", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Admin_AllAdmin : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<AllAdminUsersViewModel>
     {
@@ -170,7 +171,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
             WriteLiteral("\t\t\t\t</th>\r\n\t\t\t\t<th>\r\n\t\t\t\t\t");
             EndContext();
             BeginContext(669, 222, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dcee24a918fb469b955c185c16d1286d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7b31b54a631d451bb16f8b885f6838c9", async() => {
                 BeginContext(802, 82, true);
                 WriteLiteral("\r\n\t\t\t\t\t\t<button class=\"btn btn-success\" type=\"submit\">Delete Admin</button>\r\n\t\t\t\t\t");
                 EndContext();

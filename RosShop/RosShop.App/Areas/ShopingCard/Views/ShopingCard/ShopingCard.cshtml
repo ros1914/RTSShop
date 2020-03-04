@@ -1,34 +1,40 @@
-﻿@model ShopingCardViewModel
+﻿@using Microsoft.Extensions.Options
+@inject IOptions<RosShop.App.Data.StripeSettings> Stripe
+
+@model ShopingCardViewModel
 @{
 	ViewData["Title"] = "ShopingCard";
 }
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+	<div class="alert alert-danger alert-dismissible">
+		<button type="button" class="closebtn" data-dismiss="alert" onclick="this.parentElement.style.display='flex';">&times;</button>
+		<strong>Error!</strong> @ViewBag.Error
+	</div>
+}
 
-<h2>ShopingCard.Stana </h2>
+<h2>ShopingCard</h2>
+@if (Model.CardProduct == null)
+{
+	<h1>The Shoping card is empty !!!</h1>
+}
+<!---->
+<form asp-area="ShopingCard" asp-controller="ShopingCard" asp-action="MakeOrder" method="get" class="form-horizontal">
 
-<form asp-area="Admin" asp-controller="ShopingCard" asp-action="MakeOrder" method="get" class="form-horizontal">
-	
+
 	@foreach (var item in Model.CardProduct.Product)
 	{
-	
-	<p>Brand Name: @item.BrandName</p>
-	<p>Model:@item.NameOfModel</p>
-	<p>Size:@item.NumberOfSize</p>
-	<p>Quantity: @item.Quantity</p>
-	<p>Proce:@item.Price lv</p>
-	<a class="btn btn-success" asp-area="Admin" asp-controller="ShopingCard" asp-action="DeleteProductOnShopingCard" asp-route-id="@item.Id">Delete</a>
-	<br />
-	<br />
-	}
-	<input type="hidden" asp-for="CardProduct.Id" />
-	<input type="hidden" asp-for="CardProduct.CardId"/>
 
-	<div class="form-group">
-		<label asp-for="CardProduct.Shippers" class="col-md-2 control-label"></label>
-		<div class="col-md-4">
-			<select asp-for="CardProduct.ShipperId" asp-items="@Model.CardProduct.Shippers" class="form-control"></select>
-			<span asp-validation-for="CardProduct.ShipperId" class="form-text text-danger"></span>
-		</div>
-	</div>
+		<p>Brand Name: @item.BrandName</p>
+		<p>Model:@item.NameOfModel</p>
+		<p>Size:@item.NumberOfSize</p>
+		<p>Quantity: @item.Quantity</p>
+		<p>Proce:@item.Price lv</p>
+		<a class="btn btn-success" asp-area="ShopingCard" asp-controller="ShopingCard" asp-action="DeleteProductOnShopingCard" asp-route-id="@item.Id">Delete</a>
+		<br />
+		<br />
+	}
+
 
 	<h3>Total Price: @Model.CardProduct.Product.Sum(s => s.Price) lv</h3>
 	<div class="form-group">
@@ -38,3 +44,21 @@
 	</div>
 
 </form>
+
+<div>
+	<form asp-area="ShopingCard" asp-controller="ShopingCard" asp-action="StripePayment" method="post">
+		<article>
+			<label>Amount: $5.00</label>
+		</article>
+		<script src="//checkout.stripe.com/v2/checkout.js"
+				class="stripe-button"
+				data-key="@Stripe.Value.PublishableKey"
+				data-local="auto"
+				data-description="Sample Charge">
+
+		</script>
+	</form>
+</div>
+
+
+

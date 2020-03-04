@@ -1,7 +1,56 @@
-﻿@model ShopingCardViewModel
+﻿@model OrderModel
 @{
-    ViewData["Title"] = "MakeOrder";
+	ViewData["Title"] = "MakeOrder";
 }
 
-<h2>MakeOrder</h2>
+<h2>Add Adress</h2>
 
+@if (!string.IsNullOrEmpty(ViewBag.Error))
+{
+	<div class="alert alert-danger alert-dismissible">
+		<button type="button" class="closebtn" data-dismiss="alert" onclick="this.parentElement.style.display='flex';">&times;</button>
+		<strong>Error!</strong> @ViewBag.Error
+	</div>
+}
+
+<form asp-area="ShopingCard" asp-controller="ShopingCard" asp-action="MakeOrder" method="post" class="form-horizontal" enctype="multipart/form-data">
+	<!--own: Html.EditorFor(model => model.Town)-->
+	<div class="form-group">
+		<label asp-for="@Model.Adress" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="Adress" class="form-control" />
+			<span asp-validation-for="Adress" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="Town" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="Town" class="form-control" />
+			<span asp-validation-for="Town" class="form-text text-danger"></span>
+		</div>
+	</div>
+
+	<div class="form-group">
+		<label asp-for="PostCode" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<input asp-for="PostCode" class="form-control" />
+			<span asp-validation-for="PostCode" class="form-text text-danger"></span>
+		</div>
+	</div>
+	<div class="form-group">
+		<label asp-for="Shippers" class="col-md-2 control-label"></label>
+		<div class="col-md-4">
+			<select asp-for="ShipperId" asp-items="@Model.Shippers" class="form-control"></select>
+
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-sm-10 col-sm-push-2">
+			<input type="submit" value="Make Order" class="btn btn-success" />
+		</div>
+	</div>
+</form>
+
+@section Scripts {
+	<partial name="_ValidationScriptsPartial" />
+}

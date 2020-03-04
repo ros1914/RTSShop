@@ -14,6 +14,8 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using RosShop.App.Areas.Identity.Services;
 using RosShop.Services.Implementation;
 using RosShop.Services;
+using Stripe;
+using RosShop.App.Data;
 
 namespace RosShop.App
 {
@@ -63,6 +65,7 @@ namespace RosShop.App
 
 			services.AddSingleton<IEmailSender, SendGridEmailSender>();
 			services.Configure<SendGridOptions>(this.Configuration.GetSection("EmailSettings"));
+			services.Configure<StripeSettings>(this.Configuration.GetSection("Stripe"));
 
 			services.AddMvc(options =>
 			{
@@ -75,6 +78,9 @@ namespace RosShop.App
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
 		public void Configure(IApplicationBuilder app, IHostingEnvironment env)
 		{
+
+			StripeConfiguration.SetApiKey(this.Configuration.GetSection("Stripe")["SecretKey"]);
+
 			if (env.IsDevelopment())
 			{
 				app.UseDeveloperExceptionPage();

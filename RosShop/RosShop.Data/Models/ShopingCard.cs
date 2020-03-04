@@ -17,9 +17,14 @@
 		[Range(0, 50)]
 		public int Quontity { get; set; }
 
-		public IEnumerable<Shipper> Shippers { get; set; } = new List<Shipper>();
+		public int ShippersId { get; set; }
+		public Shipper Shippers { get; set; } 
 
 		public IEnumerable<PaymentCard> Payment { get; set; } = new List<PaymentCard>();
+
+		public bool Send { get; set; }
+
+		public string OrderAdress { get; set; }
 
 	}
 }

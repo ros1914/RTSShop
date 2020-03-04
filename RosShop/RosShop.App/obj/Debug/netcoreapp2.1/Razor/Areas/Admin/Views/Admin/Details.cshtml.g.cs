@@ -28,13 +28,13 @@ using RosShop.Data.Models;
 
 #line default
 #line hidden
-#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.App.Areas.Admin.Models;
+#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.Services.Models;
 
 #line default
 #line hidden
-#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.Services.Models;
+#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.App.Areas.Admin.Models;
 
 #line default
 #line hidden
@@ -49,6 +49,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d7d73d968a246653d5e82a1d3c9b1db5adf66c76", @"/Areas/Admin/Views/Admin/Details.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cba7ba155524846b62b5c7727c6048b9f44bac74", @"/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b56900d15182f01e20e03f74d066ac4c78e6ceb6", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Admin_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<DetailsProductViewModel>
     {
@@ -96,7 +97,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
             WriteLiteral("\r\n<h2>Details </h2>\r\n\r\n<div class=\"container-fluid\">\r\n\t<div class=\"row\">\r\n\t\t<div class=\"col-12\">\r\n\t\t\t");
             EndContext();
             BeginContext(264, 107, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "49c079e228a44b53a1a7f200ed5b3781", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "fb8434ceff65443595852d8cdd65dc2c", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_ImageTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.ImageTagHelper>();
@@ -210,7 +211,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ImageTagHelper.AppendVersion = true;
             WriteLiteral("</p>\r\n\t\t\t");
             EndContext();
             BeginContext(898, 139, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34bc27610aca4f74be5c3238cc35ee70", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ddaf0fa0775e4c38a4846dc700c071a1", async() => {
                 BeginContext(1028, 5, true);
                 WriteLiteral("Edit ");
                 EndContext();
@@ -250,7 +251,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ImageTagHelper.AppendVersion = true;
             WriteLiteral("\r\n\t\t\t");
             EndContext();
             BeginContext(1042, 142, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7ecf7471713d4113bcf6202922813754", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "705a786fcb504153ac0b046126090f0f", async() => {
                 BeginContext(1174, 6, true);
                 WriteLiteral("Delete");
                 EndContext();
@@ -290,7 +291,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_ImageTagHelper.AppendVersion = true;
             WriteLiteral("\r\n\t\t\t");
             EndContext();
             BeginContext(1189, 153, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1b2b5fd2e2ce422f911a7b5d4fd00851", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3c813ba864b54b1999c246d1dbbfa521", async() => {
                 BeginContext(1326, 12, true);
                 WriteLiteral("Change Image");
                 EndContext();

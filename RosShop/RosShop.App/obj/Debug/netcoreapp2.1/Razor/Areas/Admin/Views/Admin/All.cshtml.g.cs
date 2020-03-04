@@ -28,13 +28,13 @@ using RosShop.Data.Models;
 
 #line default
 #line hidden
-#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.App.Areas.Admin.Models;
+#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.Services.Models;
 
 #line default
 #line hidden
-#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.Services.Models;
+#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.App.Areas.Admin.Models;
 
 #line default
 #line hidden
@@ -49,6 +49,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"be683558403c01f2dd5cab1394e17b4cf7583231", @"/Areas/Admin/Views/Admin/All.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cba7ba155524846b62b5c7727c6048b9f44bac74", @"/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b56900d15182f01e20e03f74d066ac4c78e6ceb6", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Admin_All : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<AllUserViewModel>
     {
@@ -93,7 +94,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
             WriteLiteral("\r\n<h2>All</h2>\r\n<div class=\"search-container\">\r\n\t");
             EndContext();
             BeginContext(114, 253, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "469b078018d6441c990a942e32caebb6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3e10810fdea24ec99a1276c4c1afcfd9", async() => {
                 BeginContext(181, 179, true);
                 WriteLiteral("\r\n\t\t<input type=\"text\" name=\"searchUser\">\r\n\t\t<!--<button type=\"submit\"><i class=\"fa fa-search\"></i></button>-->\r\n\t\t<button class=\"btn btn-primary\" type=\"submit\">Search</button>\r\n\t");
                 EndContext();
@@ -315,7 +316,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
             WriteLiteral("\r\n\t\t\t</th>\r\n\t\t\t<th>\r\n\t\t\t\t");
             EndContext();
             BeginContext(1694, 129, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0c7dbadcc3fc454586ed67d54da9c747", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd7adc3c96984b6589d8757d6647043d", async() => {
                 BeginContext(1809, 10, true);
                 WriteLiteral("MakeAdmin ");
                 EndContext();

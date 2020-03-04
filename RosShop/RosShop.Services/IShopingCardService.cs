@@ -1,8 +1,11 @@
 ﻿namespace RosShop.Services
 {
-	using RosShop.Services.Models;
+    using Microsoft.AspNetCore.Mvc.Rendering;
+    using RosShop.Services.Models;
 	using RosShop.Services.Models.ShopingCard;
-	using System.Collections.Generic;
+    using RosShop.Services.Models.ShopingCard.PayPal;
+    using RosShop.Services.Models.ShopingCard.Stripe;
+    using System.Collections.Generic;
 
 	public interface IShopingCardService
 	{
@@ -19,5 +22,13 @@
 		bool DeliteProductOnShopingCard(int id);
 
 		bool AddPaymantCard(AddPaymantModel model);
+
+		PayPalConfig getPayPalConfig();
+
+		IEnumerable<SelectListItem> AddAdresAndShipper();
+
+		bool MakeOrder(string userId, OrderModel model);
+
+		bool UserPay(StripeModel stripeModel, string userId);
 	}
 }

@@ -82,6 +82,10 @@
             "Sendgrid": {
               "target": "Package",
               "version": "[9.11.0, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[34.25.0, )"
             }
           },
           "imports": [
@@ -234,6 +238,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[34.25.0, )"
             }
           },
           "imports": [

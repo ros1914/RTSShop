@@ -1,20 +1,25 @@
 ﻿namespace RosShop.Services.Models.ShopingCard
 {
-	using RosShop.Data.Models;
+    using Microsoft.AspNetCore.Mvc.Rendering;
+    using RosShop.Data.Models;
 	using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
 
-	public class OrderModel
+    public class OrderModel
 	{
-		public int Id { get; set; }
+		[MinLength(2)]
+		[Required]
+		public string Town { get; set; }
 
-		public IEnumerable<Product> Product { get; set; }
+		[Required]
+		public string Adress { get; set; }
+
+		[Range(1000, 9999, ErrorMessage = "The Post Code must be 4 numbers")]
+		[Display(Name = "Post Code")]
+		public int PostCode { get; set; }
 
 		public int ShipperId { get; set; }
-
-		public string NameOfSiopper { get; set; }
-
-		public int PaymantCardId { get; set; }
-
+		public IEnumerable<SelectListItem> Shippers { get; set; }
 
 	}
 }

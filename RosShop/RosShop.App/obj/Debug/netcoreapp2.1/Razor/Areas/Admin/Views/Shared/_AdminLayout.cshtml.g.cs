@@ -28,13 +28,13 @@ using RosShop.Data.Models;
 
 #line default
 #line hidden
-#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.App.Areas.Admin.Models;
+#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.Services.Models;
 
 #line default
 #line hidden
-#line 5 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
-using RosShop.Services.Models;
+#line 4 "D:\C#\C# Web.ASP.NetCore-Поправка\C# Web.ASP.NetCore-Поправка\RosShop\RosShop.App\Areas\Admin\Views\_ViewImports.cshtml"
+using RosShop.App.Areas.Admin.Models;
 
 #line default
 #line hidden
@@ -49,6 +49,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bdefe08f4636751bda384c61104c602e09a584f4", @"/Areas/Admin/Views/Shared/_AdminLayout.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"cba7ba155524846b62b5c7727c6048b9f44bac74", @"/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b56900d15182f01e20e03f74d066ac4c78e6ceb6", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Shared__AdminLayout : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
@@ -98,7 +99,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n");
             EndContext();
             BeginContext(27, 507, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "46bcbf3f355b4313bc1ab8bc2926c0d5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6491c64351f54f49a70c56ac97ee73dd", async() => {
                 BeginContext(33, 112, true);
                 WriteLiteral("\r\n\t<meta charset=\"utf-8\" />\r\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n\t<title>");
                 EndContext();
@@ -135,7 +136,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(536, 3847, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2658943e1ed74e4b8918dd65dc4ad7b8", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a49bdb1cff8456fae6e21dfa89e2478", async() => {
                 BeginContext(542, 473, true);
                 WriteLiteral(@"
 	<nav class=""navbar navbar-inverse navbar-fixed-top"" role=""navigation"">
@@ -150,7 +151,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
 				");
                 EndContext();
                 BeginContext(1015, 105, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "65a7d503fd62451c854b6ae83cc6cf9e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "333c8cc6a03d4b00bb6af452480e55e8", async() => {
                     BeginContext(1103, 13, true);
                     WriteLiteral("RosShop.Admin");
                     EndContext();
@@ -177,7 +178,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
                 WriteLiteral("\r\n\t\t\t</div>\r\n\t\t\t<div id=\"navbar\" class=\"collapse navbar-collapse\">\r\n\t\t\t\t<ul class=\"nav navbar-nav\">\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t");
                 EndContext();
                 BeginContext(1238, 75, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "275a6a02d12b4459ad73d2236a173b9c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2130e96526574e79a012f9f0b0c34603", async() => {
                     BeginContext(1305, 4, true);
                     WriteLiteral("Home");
                     EndContext();
@@ -203,7 +204,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
                 WriteLiteral("\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li>\r\n\t\t\t\t\t\t");
                 EndContext();
                 BeginContext(1344, 79, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7370274848124d468195e2af7488cb6d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2588c3df4c8f4da48669b622d8ae3b7f", async() => {
                     BeginContext(1409, 10, true);
                     WriteLiteral("Admin User");
                     EndContext();
@@ -238,7 +239,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
 							");
                 EndContext();
                 BeginContext(1694, 82, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a47f694e086449b940e53c00afe2225", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4707b408a1184e859cfda5828c7eb258", async() => {
                     BeginContext(1761, 11, true);
                     WriteLiteral("Add Product");
                     EndContext();
@@ -264,7 +265,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
                 WriteLiteral("\r\n\t\t\t\t\t\t\t<br />\r\n\t\t\t\t\t\t\t");
                 EndContext();
                 BeginContext(1800, 82, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eb5a4265f3f74a7393f6ca5b3b01927a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bf3f877cc19a4096a85cbf5c70a96d48", async() => {
                     BeginContext(1867, 11, true);
                     WriteLiteral("All Product");
                     EndContext();
@@ -300,7 +301,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
 							");
                 EndContext();
                 BeginContext(2158, 82, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cdd71719996048f8bb8df512a16c212d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "80bab3e0d8fa40698539d500e6472c9c", async() => {
                     BeginContext(2225, 11, true);
                     WriteLiteral("All Shipper");
                     EndContext();
@@ -326,7 +327,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
                 WriteLiteral("\r\n\t\t\t\t\t\t\t<br />\r\n\t\t\t\t\t\t\t");
                 EndContext();
                 BeginContext(2264, 82, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8fdf5ae0b8e843dca85a0bd956d0e634", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d239dfd6752441488dbf5d61488edd9a", async() => {
                     BeginContext(2331, 11, true);
                     WriteLiteral("Add Shipper");
                     EndContext();
@@ -352,7 +353,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
                 WriteLiteral("\r\n\t\t\t\t\t\t</div>\r\n\r\n\t\t\t\t</ul>\r\n\r\n\t\t\t\t<ul class=\"nav navbar-nav navbar-right \">\r\n\r\n\t\t\t\t\t<li class=\"dropdown\">\r\n\t\t\t\t\t\t");
                 EndContext();
                 BeginContext(2460, 91, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fb12c6d2bc614794904c7ceefadd284b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d44c882bb9d54b61b3c2c4d7f1ef3011", async() => {
                     BeginContext(2533, 14, true);
                     WriteLiteral("Heloo Admin ! ");
                     EndContext();
@@ -380,7 +381,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
                 WriteLiteral("\r\n\r\n\t\t\t\t\t</li>\r\n\t\t\t\t\t<li class=\"dropdown\">\r\n\t\t\t\t\t\t");
                 EndContext();
                 BeginContext(2601, 258, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f0bfebf2977d4e8b8768836d231a742e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a93dc0e11b1f4fa394f7b1a0ad8e1a23", async() => {
                     BeginContext(2754, 98, true);
                     WriteLiteral("\r\n\t\t\t\t\t\t\t<button type=\"submit\" class=\"btn btn-link navbar-btn navbar-link\">Logout</button>\r\n\t\t\t\t\t\t");
                     EndContext();
@@ -422,7 +423,7 @@ using RosShop.App.Areas.Admin.Models.Shipper;
                 WriteLiteral("\r\n\r\n\t\t\t\t\t</li>\r\n\t\t\t\t</ul>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</nav>\r\n\r\n\t");
                 EndContext();
                 BeginContext(2919, 40, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "7341c4a4d8104befacb6bb9fbe0d9303", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c53aca4fba5f4aaaa4faf967dc35fe6c", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();

@@ -62,6 +62,11 @@ namespace RosShop.Data
 				.WithOne(sh => sh.ShopingCard)
 				.HasForeignKey(sh => sh.ShopingCardId);
 
+			builder.Entity<Shipper>()
+				.HasMany(sh => sh.ShopingCard)
+				.WithOne(s => s.Shippers)
+				.HasForeignKey(s=>s.ShippersId);
+
 			base.OnModelCreating(builder);
 		}
 	}

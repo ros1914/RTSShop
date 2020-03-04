@@ -9,8 +9,6 @@ namespace RosShop.Services.Models.ShopingCard
 		public int Id { get; set; }
 		public IEnumerable<Product> Product { get; set; }
 
-		public int Quantity { get; set; }
-
 		public int ShipperId { get; set; }
 		public IEnumerable<SelectListItem> Shippers { get; set; }
 

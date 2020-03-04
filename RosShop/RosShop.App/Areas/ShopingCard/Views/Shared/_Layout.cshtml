@@ -9,15 +9,17 @@
 	<environment include="Development">
 		<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
 		<link rel="stylesheet" href="~/css/site.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 		<link rel="stylesheet" href="~/css/style.css" />
 		<link rel="stylesheet" href="~/css/dropDownButton.css" />
 
 	</environment>
 	<environment exclude="Development">
+		
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-			  asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-			  asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
+		  asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
+		  asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />-->
 		<link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
 	</environment>
 </head>
@@ -39,13 +41,14 @@
 					<li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
 					<li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
 					<li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+
 					@if (User.IsInRole("Administrator"))
 					{
 						<li><a asp-area="Admin" asp-controller="Admin" asp-action="AllProduct">Go to Admin</a></li>
 					}
 
 				</ul>
-				
+
 				<partial name="_LoginPartial" />
 			</div>
 
@@ -57,12 +60,7 @@
 	<div class="container body-content">
 		@if (TempData.ContainsKey("_Message"))
 		{
-			//var message = TempData["_Message"];
 
-			<!--<div class=a"lert alert-{this.Type.ToString().ToLower()}">
-				<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
-				<strong>//message.Type</strong> message.TextMessege .
-			</div>-->
 		}
 
 		@RenderBody()
@@ -91,8 +89,10 @@
 				integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
 		</script>
 		<script src="~/js/site.min.js" asp-append-version="true"></script>
+		
 	</environment>
 
 	@RenderSection("Scripts", required: false)
-</body>
-</html>
+	@RenderSection("stripe", required: false)
+	</body>
+	</html>

@@ -39,6 +39,7 @@
 					<li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
 					<li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
 					<li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+					<li><a asp-area="ShopingCard" asp-controller="ShopingCard" asp-action="ShopingCard">ShopingCard</a></li>
 					@if (User.IsInRole("Administrator"))
 					{
 						<li><a asp-area="Admin" asp-controller="Admin" asp-action="AllProduct">Go to Admin</a></li>
@@ -102,6 +103,8 @@
 				integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd">
 		</script>
 		<script src="~/js/site.min.js" asp-append-version="true"></script>
+		<script src="https://js.stripe.com/v3/"></script>
+		<script src="~/js/StripeJavaScript.js" asp-append-version="true"></script>
 	</environment>
 
 	@RenderSection("Scripts", required: false)

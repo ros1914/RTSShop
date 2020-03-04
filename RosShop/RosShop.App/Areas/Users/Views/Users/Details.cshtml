@@ -17,7 +17,7 @@
 			<p class="card-text">@Model.DetailsProductModel.Gender</p>
 			<p class="card-text">@Model.DetailsProductModel.Color</p>
 
-			<form asp-area="Admin" asp-controller="ShopingCard" asp-action="ShopingCard" asp-route-id="@Model.DetailsProductModel.Id" method="post" class="form-horizontal">
+			<form asp-area="ShopingCard" asp-controller="ShopingCard" asp-action="ShopingCard" asp-route-id="@Model.DetailsProductModel.Id" method="post" class="form-horizontal">
 				<!--@Html.HiddenFor(i=>i.DetailsProductModel.Id)-->
 				<button class="btn btn-success" type="submit">Add to card</button>
 			</form>

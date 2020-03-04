@@ -286,7 +286,7 @@
 			{
 				NameOfShipper = addShiper.NameOfShipper,
 				Phone = addShiper.Phone,
-				ShopingId = 1
+				//ShopingId = 1
 			};
 
 			if (shipper == null)

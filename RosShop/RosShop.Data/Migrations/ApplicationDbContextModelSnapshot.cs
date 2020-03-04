@@ -250,13 +250,7 @@ namespace RosShop.Data.Migrations
 
                     b.Property<string>("Phone");
 
-                    b.Property<int?>("ShopingCardId");
-
-                    b.Property<int>("ShopingId");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("ShopingCardId");
 
                     b.ToTable("Shippers");
                 });
@@ -267,11 +261,19 @@ namespace RosShop.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("OrderAdress");
+
                     b.Property<int>("Quontity");
+
+                    b.Property<bool>("Send");
+
+                    b.Property<int>("ShippersId");
 
                     b.Property<string>("UserId");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ShippersId");
 
                     b.HasIndex("UserId");
 
@@ -438,15 +440,13 @@ namespace RosShop.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("RosShop.Data.Models.Shipper", b =>
-                {
-                    b.HasOne("RosShop.Data.Models.ShopingCard", "ShopingCard")
-                        .WithMany("Shippers")
-                        .HasForeignKey("ShopingCardId");
-                });
-
             modelBuilder.Entity("RosShop.Data.Models.ShopingCard", b =>
                 {
+                    b.HasOne("RosShop.Data.Models.Shipper", "Shippers")
+                        .WithMany("ShopingCard")
+                        .HasForeignKey("ShippersId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
                     b.HasOne("RosShop.Data.Models.User", "User")
                         .WithMany("Shopingcard")
                         .HasForeignKey("UserId");

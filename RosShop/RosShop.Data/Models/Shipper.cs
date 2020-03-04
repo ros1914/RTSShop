@@ -16,7 +16,7 @@
 		[Phone]
 		public string Phone { get; set; }
 
-		public int ShopingId { get; set; }
-		public ShopingCard ShopingCard { get; set; }
+
+		public IEnumerable<ShopingCard> ShopingCard { get; set; } = new List<ShopingCard>();
 	}
 }
